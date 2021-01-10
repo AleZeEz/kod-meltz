@@ -1,0 +1,8 @@
+module.exports = ({
+    name: "partnerstwapomoc",
+    code: `$channelSendMessage[$channelID;{title: Krok 4: Nadaj uprawnienia}{description: $getVar[grave]$getServerVar[prefix]partnermenadzer <1 aby nadac/0 aby odebrac> @wzmiankauzytkon$getVar[grave]}{image:  https://media.discordapp.net/attachments/765243147159994388/780412578169487380/unknown.png}{color: 2add15}]
+    $channelSendMessage[$channelID;{title: Krok 3: Ustaw kolor embed w partnerstwach}{description: $getVar[grave]$getServerVar[prefix]partnerstwo-kolor #wzmiankakanalu$getVar[grave]}{image:  https://media.discordapp.net/attachments/765243147159994388/780412534711779368/unknown.png}{color: 2add15}]
+    $channelSendMessage[$channelID;{title: Krok 2: Ustaw kanal partnerstw}{description: $getVar[grave]$getServerVar[prefix]pkanal #wzmiankakanalu$getVar[grave]}{image: https://media.discordapp.net/attachments/765243147159994388/780412491024171028/unknown.png}{color: 2add15}]
+    $channelSendMessage[$channelID;{title: Krok 1: Ustaw role partnera}{description: $getVar[grave]$getServerVar[prefix]prola @wzmianka roli partnera$getVar[grave]}{image: https://media.discordapp.net/attachments/765243147159994388/780412377043828766/unknown.png}{color: 2add15}]
+    $onlyIf[$getGlobalUserVar[gban;$authorID]==0;{title: Blad} {description: Twoje konto znajduje sie na liscie __**globalnie zbanowanych**__, co skutkuje zablokowaniem uzywania przez Ciebie komend}{color: fa4a4a}]`
+})
